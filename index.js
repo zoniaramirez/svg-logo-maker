@@ -57,4 +57,8 @@ function createSVG(answers) {
             break;    
     }
 
-  }
+  // Adding text to the SVG. Adjust 'y' value as needed to position the text appropriately
+  const textSvg = `<text x="150" y="125" fill="${textColor}" text-anchor="middle" font-size="60">${text}</text>`;
+
+  return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${shapeSvg}${textSvg}</svg>`;
+}
