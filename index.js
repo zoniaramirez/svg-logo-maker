@@ -25,10 +25,20 @@ inquirer
         name: 'shapeColor',
         message: 'Enter the shape color:',
     },
-  ]);
+  ])
+  .then(answers => {
+    // function that takes the answers and creates an SVG content
+    const svgContent = createSVG(answers);
+    writeToFile(svgContent);
+  });
 
  // Save to logo.svg
  function writeToFile(svgContent) {
  fs.writeFileSync('logo.svg', svgContent);
  console.log('Generated logo.svg');
  };
+
+//createSVG function 
+function createSVG(answers) {
+    return ;
+  }
