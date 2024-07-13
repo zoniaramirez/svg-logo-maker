@@ -40,5 +40,21 @@ inquirer
 
 //createSVG function 
 function createSVG(answers) {
-    return ;
+    const { shape, shapeColor, text, textColor } = answers;
+    let shapeSvg = '';
+
+    switch (shape) {
+        case 'circle':
+            shapeSvg = `<circle cx="150" cy="100" r="80" fill="${shapeColor}" />`;
+            break;// Prevents the execution from falling through to the next case
+            
+        case 'square':
+            shapeSvg = `<rect x="0" y="0" width="300" height="200" fill="${shapeColor}" />`;
+            break;
+            
+        case 'triangle':
+            shapeSvg = `<polygon points="0,200 300,200 150,0" fill="${shapeColor}" />`;
+            break;    
+    }
+
   }
