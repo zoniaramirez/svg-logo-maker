@@ -49,7 +49,7 @@ function createSVG(answers) {
             break;// Prevents the execution from falling through to the next case
             
         case 'square':
-            shapeSvg = `<rect x="0" y="0" width="300" height="200" fill="${shapeColor}" />`;
+            shapeSvg = `<rect x="60" y="35" width="175" height="175" fill="${shapeColor}" />`;
             break;
             
         case 'triangle':
@@ -57,7 +57,7 @@ function createSVG(answers) {
             break;    
     }
 
-  // Adding text to the SVG. Adjust 'y' value as needed to position the text appropriately
+  // Adding text to the SVG
   const textSvg = `<text x="150" y="125" fill="${textColor}" text-anchor="middle" font-size="60">${text}</text>`;
 
   return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">${shapeSvg}${textSvg}</svg>`;
