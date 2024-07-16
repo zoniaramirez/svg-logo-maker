@@ -17,9 +17,9 @@ This SVG logo maker was created as a challenge for bootcamp students to apply ev
     - When I have entered input for all the prompts an SVG file is created named logo.svg and "Generated logo.svg" is logged in the command line
     - When I open the logo.svg file I am shown an image that matches the criteria I entered within a 300x200 pixel
 
-## README Generator Video
+## SVG Log Maker Video
 
-[Click here to view video](./zoniaramirez_svg-logo-maker.mp4)
+[Click here to view video](https://drive.google.com/file/d/1zYTP6QpO6y4gCaZKdtxzrlkzK7itth-n/view?usp=drive_link)
 
 
 
