@@ -15,7 +15,7 @@ This SVG logo maker was created as a challenge for bootcamp students to apply ev
     - When I am prompted for a shape I am presented with a list of shapes to choose from: circle, triangle, and square.
     - When I am prompted for the shape's color I can enter a color
     - When I have entered input for all the prompts an SVG file is created named logo.svg and "Generated logo.svg" is logged in the command line
-    - When I open the logo.svg file in a browser then I am shown an image that matches the criteria i entered within a 300x200 pixel
+    - When I open the logo.svg file I am shown an image that matches the criteria I entered within a 300x200 pixel
 
 ## README Generator Video
 
